@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Microsoft%20Excel-Analytics%20Dashboard-217346?style=for-the-badge&logo=microsoft-excel" alt="Excel Analytics Dashboard"/>
   <img src="https://img.shields.io/badge/Business-Intelligence-0F5C9B?style=for-the-badge" alt="Business Intelligence"/>
-  <img src="https://img.shields.io/badge/Portfolio-Ready-FF7F50?style=for-the-badge" alt="Portfolio Ready"/>
   <img src="https://img.shields.io/badge/Role-Data%20Analyst-6A5ACD?style=for-the-badge" alt="Data Analyst"/>
 </p>
 
