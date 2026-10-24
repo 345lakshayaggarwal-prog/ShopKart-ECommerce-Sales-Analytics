@@ -111,10 +111,10 @@ The dashboard includes a comprehensive set of performance measures:
 ## Dashboard Preview
 
 ### Main Dashboard
-![ShopKart Executive Dashboard](assets/shopkart-dashboard-main.png)
+![ShopKart Executive Dashboard](shopkart-dashboard-main.png)
 
 ### Analytics Overview
-![ShopKart Analytics Overview](assets/shopkart-analytics-overview.png)
+![ShopKart Analytics Overview](shopkart-analytics-overview.png)
 
 ---
 
