@@ -4,7 +4,6 @@
   <img src="https://img.shields.io/badge/Microsoft%20Excel-Analytics%20Dashboard-217346?style=for-the-badge&logo=microsoft-excel" alt="Excel Analytics Dashboard"/>
   <img src="https://img.shields.io/badge/Business-Intelligence-0F5C9B?style=for-the-badge" alt="Business Intelligence"/>
   <img src="https://img.shields.io/badge/Data-Analysis-FF7F50?style=for-the-badge" alt="Data Analysis"/>
-  <img src="https://img.shields.io/badge/Portfolio-Ready-6A5ACD?style=for-the-badge" alt="Portfolio Ready"/>
 </p>
 
 A premium e-commerce analytics project built in Microsoft Excel to transform raw sales data into a business-ready decision dashboard. This project focuses on understanding revenue generation, channel performance, customer retention, product contribution, and operational efficiency for a direct-to-consumer retail brand.
