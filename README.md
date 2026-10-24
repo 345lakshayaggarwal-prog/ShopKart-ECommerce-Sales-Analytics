@@ -70,10 +70,10 @@ This dashboard solves that problem by creating a unified, presentation-ready vie
 ## 📊 Executive Dashboard Preview
 
 ### Main Dashboard
-![ShopKart Executive Dashboard](assets/shopkart-dashboard-preview.svg)
+![ShopKart Executive Dashboard](Screenshot%202026-10-25%20014853.png)
 
 ### Analytics Overview
-![ShopKart Analytics Overview](assets/shopkart-analytics-overview.svg)
+![ShopKart Analytics Overview](Screenshot%202026-10-25%20014959.png)
 
 ---
 
@@ -106,8 +106,8 @@ The dashboard includes:
 - `Ecommerce_Sales_Data_Analyst_Project.xlsx` — the complete Excel dashboard and analysis workbook
 - `RAW_Ecommerce_Sales_Data.xlsx` — raw e-commerce sales data used for the project
 - `README.md` — project summary and documentation
-- `assets/shopkart-dashboard-preview.svg` — visual dashboard preview
-- `assets/shopkart-analytics-overview.svg` — analytics summary preview
+- `Screenshot 2026-10-25 014853.png` — main Excel dashboard screenshot
+- `Screenshot 2026-10-25 014959.png` — analytics overview screenshot
 
 ---
 
@@ -157,9 +157,10 @@ ShopKart-ECommerce-Sales-Analytics/
 ├── Ecommerce_Sales_Data_Analyst_Project.xlsx
 ├── RAW_Ecommerce_Sales_Data.xlsx
 ├── README.md
+├── Screenshot 2026-10-25 014853.png
+├── Screenshot 2026-10-25 014959.png
 └── assets/
-    ├── shopkart-dashboard-preview.svg
-    └── shopkart-analytics-overview.svg
+    └── (optional dashboard assets)
 ```
 
 ---
