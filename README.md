@@ -1,4 +1,4 @@
-# 🛒 ShopKart D2C | E-Commerce Sales & Customer Analytics Dashboard (2024–2025)
+# 🛒 ShopKart D2C — E-Commerce Sales & Customer Analytics (2024–2025)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Microsoft%20Excel-Analytics%20Dashboard-217346?style=for-the-badge&logo=microsoft-excel" alt="Excel Analytics Dashboard"/>
@@ -6,105 +6,65 @@
   <img src="https://img.shields.io/badge/Data-Analysis-FF7F50?style=for-the-badge" alt="Data Analysis"/>
 </p>
 
-A premium e-commerce analytics project built in Microsoft Excel to transform raw sales data into a business-ready decision dashboard. This project focuses on understanding revenue generation, channel performance, customer retention, product contribution, and operational efficiency for a direct-to-consumer retail brand.
+An executive-grade retail analytics dashboard and relational data model built in Microsoft Excel. This project evaluates multi-channel sales performance, customer retention dynamics, regional fulfillment efficiency, and marketing spend efficiency across 4,800+ transactions spanning 2024–2025.
 
 ---
 
-## Project Summary & Objective
-ShopKart is a D2C brand operating across multiple sales channels, including Amazon, Flipkart, Myntra, Nykaa, and its own website. The goal of this project was to analyze how well the business is performing across different sales environments and identify the drivers of growth, efficiency, and profitability.
+## 📌 Business Overview & Objectives
+ShopKart is a direct-to-consumer (D2C) brand retailing across multi-channel marketplaces (**Amazon, Flipkart, Myntra, Nykaa**, and direct **Website**). 
 
-The primary objective was to build a clear, interactive dashboard that helps interpret business performance across:
-- sales channels
-- product categories
-- customer behavior
-- regional demand
-- monthly revenue trends
-- return and delivery-related issues
-
-This project was designed to answer practical business questions such as:
-- Which sales channels are generating the most revenue and profit?
-- Which product categories are performing best?
-- Which regions and markets are most valuable?
-- Are customers returning for repeat purchases?
-- How does return rate affect business efficiency?
-- Which products should receive more investment or promotion?
+### Key Business Challenges Addressed:
+1. **Channel & Category Profitability**: Identifying which sales channels deliver sustainable operating margins after factoring discounts, COGS, and return shipping costs.
+2. **Customer Retention**: Tracking repeat vs. first-time buyer acquisition trends over 24 continuous months.
+3. **Logistics & Delivery Operations**: Assessing fulfillment speed benchmarks (Express $\le$2 days vs. Delayed 5+ days) and their impact on product return rates.
+4. **Marketing Spend Efficiency**: Measuring regional advertising spend ROI and correlation to net state revenue.
 
 ---
 
-## Analysis & Business Problem Solved
-Retail businesses often have rich sales data but limited visibility into how performance changes across channels, products, and regions. Without a unified analytical view, decision-makers struggle to:
-- compare channels fairly
-- assess product profitability
-- identify regional opportunities
-- detect operational issues such as high return rates
-- monitor customer retention and loyalty
-- understand whether sales growth is sustainable
-
-To address this, I analyzed multiple dimensions of the business:
-- Sales channel performance
-- Product and category contribution
-- Regional demand and market share
-- Customer retention and repeat purchase behavior
-- Return rate and delivery efficiency
-- Monthly revenue and growth trends
-
-This analysis transformed raw e-commerce data into a structured and visual dashboard that gives a single platform for evaluating business health, identifying trends, and supporting strategic decisions.
+## 🛠️ Technical Stack & Excel Features Applied
+* **Advanced Lookups & Data Modeling**:
+  * Multi-criteria aggregation via `SUMIFS`, `COUNTIFS`, `AVERAGEIFS`.
+  * Normalized data structuring using `INDEX/MATCH` across dimensional tables (`Products`, `State`, `Market`).
+  * Dynamic timeline logic using `EDATE` and date serial boundaries.
+* **KPI & Performance Engine**:
+  * Decoupled calculation engine (`Analysis` sheet) driving clean, presentation-ready dashboard cards.
+  * Real-time dynamic header generation (`="Showing: " & selYear & " • Region: " & selRegion ...`).
+* **Statistical & Trend Modeling**:
+  * Ordinary Least Squares linear regression (`SLOPE`, `INTERCEPT`, `RSQ`, `CORREL`) analyzing marketing spend sensitivity.
+  * Dynamic rank scoring and tie-breaking algorithms for product leaderboards.
+* **Interactive UX / UI Design**:
+  * Standardized dropdown validation parameters (`selYear`, `selRegion`, `selChannel`, `selCategory`, `selTopN`).
+  * Custom number formatting (`₹#,##0` and `₹0.0,"L"` for lakh scale readability).
 
 ---
 
-## Tools & Technologies Used
-This project was built using Microsoft Excel and a strong combination of business intelligence and reporting tools available inside the software.
+## 📊 Visual Insights & Findings
 
-### 1. Microsoft Excel
-Excel served as the core platform for this project. It was used to structure, clean, and organize the raw data while also serving as the primary environment for dashboard creation and reporting.
+### 1. Net Revenue by Sales Channel
+![Net Revenue by Sales Channel](channel_revenue.png)
+* **Finding**: Third-party marketplaces (**Amazon** and **Flipkart**) account for the highest gross order volumes, while direct **Website** and **Myntra** channels drive substantial high-margin revenue.
 
-### 2. Power Query
-Power Query was used to clean and transform the data before analysis. This helped structure the dataset and improve reliability for the final report.
+### 2. Net Revenue by Product Category
+![Net Revenue by Product Category](category_revenue.png)
+* **Finding**: **Apparel** and **Footwear** dominate total gross sales, whereas **Skincare** and **Wellness** show high steady-state recurring orders.
 
-### 3. Pivot Tables
-Pivot tables were used to summarize large data sets efficiently, enabling comparisons across channel, category, region, and time dimensions.
-
-### 4. Excel Formulas and Functions
-I used formulas for lookup, aggregation, conditional logic, date-based calculations, and performance metrics such as revenue, profit margin, return rate, and delivery time.
-
-### 5. Data Cleaning and Transformation
-Before analysis, the dataset was cleaned to ensure consistency in dates, regions, product categories, sales values, return numbers, and order volumes.
-
-### 6. Dashboard Design
-The dashboard was designed to be visually effective and executive-friendly, making it easy for decision-makers to understand trends and performance without reading raw data.
-
-### 7. KPI Scorecards
-The project includes KPI scorecards for revenue, profit, profit margin, average order value, return rate, and delivery speed to provide a quick summary of performance.
-
-### 8. Business Analytics & Data Visualization
-The project uses charts, trends, and summary cards to turn numbers into business insight and communicate performance clearly.
+### 3. Regional Performance Breakdown
+![Net Revenue by Region](region_revenue.png)
+* **Finding**: The **North** and **South** regions lead total regional contributions, followed closely by West and East fulfillment hubs.
 
 ---
 
-## Key Insights & KPI Coverage
-This project surfaced several important business insights:
-
-- Amazon and Flipkart are among the strongest revenue contributors in the retail ecosystem.
-- Apparel and footwear dominate the sales mix and contribute significantly to total revenue.
-- North and South regions appear to be the most productive markets.
-- Return rate and delivery timing strongly affect customer experience and operational efficiency.
-- Products with strong margins and repeat demand represent strategic growth opportunities.
-- Monthly revenue patterns reveal seasonality and trend variations that can guide planning and inventory decisions.
-
-### KPI Coverage
-The dashboard includes a comprehensive set of performance measures:
+## 📈 KPI Coverage & Scorecard
 
 | KPI Category | Description | Business Value |
 |---|---|---|
-| Revenue | Total sales generated across channels and time | Measures top-line growth |
-| Profit | Net earnings after costs | Evaluates business efficiency |
-| Profit Margin | Profit as a percentage of revenue | Shows pricing and cost effectiveness |
-| Orders | Total completed orders | Indicates demand volume |
-| Average Order Value | Average value per order | Supports customer value analysis |
-| Return Rate | Percentage of orders returned | Highlights product or service quality risk |
-| Average Delivery Time | Average time to deliver | Reflects operational performance |
-| Regional Contribution | Performance by region | Helps identify geography-driven opportunities |
-| Product Leaderboard | Top-performing products | Guides product strategy and merchandising |
+| **Revenue** | Total sales generated across channels and time | Measures top-line growth |
+| **Profit** | Net earnings after COGS and shipping | Evaluates bottom-line efficiency |
+| **Profit Margin** | Profit as a percentage of net revenue | Shows pricing and cost effectiveness |
+| **Orders** | Total completed order count | Indicates demand volume |
+| **Average Order Value** | Average transaction size | Supports customer value analysis |
+| **Return Rate** | Percentage of orders returned | Highlights product or fulfillment risk |
+| **Average Delivery Days** | Average days to fulfill order | Reflects operational performance |
 
 ---
 
@@ -118,45 +78,24 @@ The dashboard includes a comprehensive set of performance measures:
 
 ---
 
-## Skills Demonstrated
-This project demonstrates practical capability in:
-
-- Microsoft Excel
-- Data Cleaning and Preparation
-- Data Analysis
-- Dashboard Design
-- Business Intelligence
-- Sales Performance Analysis
-- Retail Analytics
-- KPI Design and Reporting
-- Regional Market Analysis
-- Product Performance Evaluation
-- Customer Retention Analysis
-- Operational Analytics
-
-These skills are directly relevant to roles in analytics, reporting, business intelligence, and e-commerce operations.
+## 📁 Repository Files
+* `Ecommerce_Sales_Data_Analyst_Project.xlsx` — The complete interactive project workbook featuring the Executive Dashboard, Analysis Engine, and Data Models.
+* `RAW_Ecommerce_Sales_Data.xlsx` — Initial raw unstructured data exports.
+* `channel_revenue.png`, `category_revenue.png`, `region_revenue.png` — Visual analytical exports.
 
 ---
 
-## Final Summary / Conclusion
-This project reflects my ability to take raw business data and turn it into a meaningful, executive-friendly dashboard. It goes beyond simply organizing numbers — it tells a story about business performance, identifies key trends, and supports better decisions.
-
-From a recruiter’s perspective, this project demonstrates:
-- analytical thinking
-- business awareness
-- dashboard expertise
-- data storytelling
-- practical reporting skills
-- ability to interpret performance metrics
-
-It is a strong example of how Excel can be used as a powerful analytics tool for real-world business decision making.
+## 📥 How to Explore the Project
+1. Download `Ecommerce_Sales_Data_Analyst_Project.xlsx` from this repository.
+2. Open in **Microsoft Excel (Microsoft 365 or Excel 2021+)**.
+3. Navigate to the **`Dashboard`** tab to test interactive slicers, year/region filters, and dynamic scorecard metrics.
 
 ---
 
 ## Connect
-- LinkedIn: https://www.linkedin.com/in/lakshay-aggarwal-130a33236/
-- Email: lakshay.aggar@gmail.com
-- GitHub: https://github.com/345lakshayaggarwal-prog
+- **LinkedIn**: [Lakshay Aggarwal](https://www.linkedin.com/in/lakshay-aggarwal-130a33236/)
+- **Email**: lakshay.aggar@gmail.com
+- **GitHub**: [345lakshayaggarwal-prog](https://github.com/345lakshayaggarwal-prog)
 
 <p align="center">
   <strong>Built for business impact. Designed to stand out.</strong>
