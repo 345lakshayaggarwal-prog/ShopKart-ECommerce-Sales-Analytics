@@ -6,7 +6,13 @@
   <img src="https://img.shields.io/badge/Data-Analysis-FF7F50?style=for-the-badge" alt="Data Analysis"/>
 </p>
 
-An executive-grade retail analytics dashboard and relational data model built in Microsoft Excel. This project evaluates multi-channel sales performance, customer retention dynamics, regional fulfillment efficiency, and marketing spend efficiency across 4,800+ transactions spanning 2024–2025.
+---
+
+## 📊 Dashboard Preview
+*An interactive, executive-grade retail analytics dashboard featuring dynamic KPI cards, regional fulfillment breakdowns, and real-time revenue trend tracking.*
+
+![ShopKart Executive Dashboard](shopkart-dashboard-main.png)
+*(Note: Replace `shopkart-dashboard-main.png` with your actual dashboard screenshot file name if you uploaded one).*
 
 ---
 
@@ -38,7 +44,7 @@ ShopKart is a direct-to-consumer (D2C) brand retailing across multi-channel mark
 
 ---
 
-## 📊 Visual Insights & Findings
+## 📈 Visual Insights & Findings
 
 ### 1. Net Revenue by Sales Channel
 ![Net Revenue by Sales Channel](channel_revenue.png)
@@ -65,16 +71,6 @@ ShopKart is a direct-to-consumer (D2C) brand retailing across multi-channel mark
 | **Average Order Value** | Average transaction size | Supports customer value analysis |
 | **Return Rate** | Percentage of orders returned | Highlights product or fulfillment risk |
 | **Average Delivery Days** | Average days to fulfill order | Reflects operational performance |
-
----
-
-## Dashboard Preview
-
-### Main Dashboard
-![ShopKart Executive Dashboard](shopkart-dashboard-main.png)
-
-### Analytics Overview
-![ShopKart Analytics Overview](shopkart-analytics-overview.png)
 
 ---
 
