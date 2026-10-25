@@ -50,7 +50,7 @@ ShopKart is a direct-to-consumer (D2C) brand retailing across multi-channel mark
 ![Net Revenue by Sales Channel](channel_revenue.png)
 * **Finding**: Third-party marketplaces (**Amazon** and **Flipkart**) account for the highest gross order volumes, while direct **Website** and **Myntra** channels drive substantial high-margin revenue.
 
-### 2. Net Revenue by Product Category
+### 2. Monthly Revenue by Product Category
 ![Net Revenue by Product Category](category_revenue.png)
 * **Finding**: **Apparel** and **Footwear** dominate total gross sales, whereas **Skincare** and **Wellness** show high steady-state recurring orders.
 
